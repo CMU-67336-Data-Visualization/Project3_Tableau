@@ -1,6 +1,6 @@
-# Project3_Tableau 
+# Project 03 Tableau 
 
-# 67-336: Tableau Take-Home Assignment  
+# 67-336: Tableau Project
 ## Analyzing Pittsburgh Police Incidents with Tableau
 
 **Course:** 67-336 Building Data Visualization into Information Systems  
