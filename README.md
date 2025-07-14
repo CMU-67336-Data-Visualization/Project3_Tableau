@@ -1,20 +1,18 @@
-# Project 03 Tableau 
+# 67-336 Project 03: Tableau + Observable
 
-# 67-336: Tableau Project
 ## Analyzing Pittsburgh Police Incidents with Tableau
 
 **Course:** 67-336 Building Data Visualization into Information Systems  
 **Instructor:** Shihong Huang  
 **TAs:** Wenchao Hu, Lexi Kronowitz  
-
 **Due Date:** TBD  
-**Submission Format:** **Observable Notebook Link & Tableau Public Dashboard Link**
+**Submission Format:** **Deployed Observable Notebook Link & Tableau Public Dashboard Link**
 
 ---
 
 ## Assignment Overview
 
-This take-home assignment provides an opportunity to analyze public safety data using Tableau. You will create two interactive dashboards using publicly available datasets from the Western Pennsylvania Regional Data Center (WPRDC). Your work should uncover meaningful insights and demonstrate best practices in visual storytelling and dashboard design. In addition to building dashboards in Tableau, you will create a project write-up and reflection in Observable.
+This project provides an opportunity to analyze public safety data using Tableau and communicate your finding using Observable. You will create two interactive dashboards using publicly available datasets from the Western Pennsylvania Regional Data Center (WPRDC). Your work should uncover meaningful insights and demonstrate best practices in visual storytelling and dashboard design. In addition to building dashboards in Tableau, you will create a project write-up and reflection in Observable. Finally, your notebook should be deployed using Vercel. 
 
 ---
 
@@ -41,9 +39,9 @@ Review the metadata, variable descriptions, and time ranges. You may choose to f
 
 ## Step 1: Define Your Data Story
 
-Begin by selecting a focused analytical question or theme. Your data story should be specific and supported by the data. Suggested directions include:
+Begin by selecting a focused analytical question or theme. Your data story should be driven by this question and supported by the data. Suggested directions include (but not limited to):
 
-- Trends in crime over time (by week, month, or year)
+- Crime trends over time (by week, month, or year)
 - Spatial distribution or hotspots by neighborhood or zone
 - Patterns by time of day or day of week
 - Distribution of crime types or severity
@@ -55,7 +53,7 @@ Clearly articulate the story your visualizations aim to tell.
 
 ## Step 2: Build Two Interactive Dashboards in Tableau
 
-Using Tableau, develop two separate dashboards, each providing a distinct perspective on your data story. The dashboards must be interactive, allowing users to explore the data through filters, tooltips, or other user actions.
+Using Tableau, develop two separate dashboards, each providing a distinct perspective on your data story. Please make sure it is specific, relevant, and researchable. The dashboards must be interactive, allowing users to explore the data through filters, tooltips, or other user actions.  
 
 Example dashboard formats include:
 
@@ -69,22 +67,36 @@ Example dashboard formats include:
 - Filters for incident category or time range  
 - Use color, shape, or size to indicate patterns  
 
-Publish both dashboards to Tableau Public and ensure they are publicly accessible.
+Publish both dashboards to Tableau Public and ensure they are publicly accessible. You will state your analytical question clearly in your Observable introduction.
 
 ---
 
 ## **Step 3: Create an Observable Notebook**
 
-Use Observable (https://observablehq.com/) to create a dashboard that serves as your final project report. Your dashboard should include:
+Use Observable (https://observablehq.com/) to create a dashboard that serves as your final project report. Refer to lab 02 to get a refresher on how to do this! 
 
-- An introduction to your project and data story
-- Embedded links (or screenshots) to your Tableau dashboards
-- Written analysis of your findings
-- Your reflection section (see Step 4)
-- Any exploratory visualizations or summary statistics you want to include
-- Citations or references to data sources
+### 3.1 Structure Your Notebook
+Your Observable notebook should include:
 
-**Your Observable notebook must be published (unlisted or public) and shared via a link.**
+- A project title and introduction (describe your question and why it matters)
+- Embedded Tableau dashboards
+- Summary and analysis of findings
+- Your written reflection (see Step 4) 
+- References to datasets or outside sources
+
+### 3.2 Embed Tableau Dashboards
+
+#### Instructions:
+1. **Publish** your dashboard to Tableau Public. Make sure your dashboard is publicly accessible on Tableau Public.
+2. **Click "Share"**, and copy the embed code provided in the "Embed Code" section.
+3. In Observable, paste the embed code in an HTML cell.
+
+#### Example:
+```js
+md`<iframe src="https://public.tableau.com/views/YOUR_VIEW" width="800" height="600"></iframe>`
+
+- An introduction to your project and data story (ie. what is your analytical question, why you choose these questions / theme, and what you hope to show to your dashboards, etc)
+- Embedded links to your Tableau dashboards.
 
 ---
 
@@ -99,11 +111,17 @@ Include this reflection as a section within your Observable notebook. Address th
 
 ---
 
-## Submission Requirements
+## Step 5: Deploy with Vercel 
+
+Refer to previous lab instructions on how to deploy your Observable notebook using Vercel. Share the deployed Vercel link in your submission. 
+
+---
+
+## Submission Requirements / Checklist
 
 Submit the following:
 
-1. A working link to your Observable notebook
+1. Vercel deployed link of your Observable notebook
 2. A working link to your Tableau Public dashboards  
 
 Ensure your submissions are viewable without login or permission requests.
