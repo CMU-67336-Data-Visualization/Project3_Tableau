@@ -94,6 +94,7 @@ Your Observable notebook should include:
 #### Example:
 ```js
 md`<iframe src="https://public.tableau.com/views/YOUR_VIEW" width="800" height="600"></iframe>`
+```
 
 - An introduction to your project and data story (ie. what is your analytical question, why you choose these questions / theme, and what you hope to show to your dashboards, etc)
 - Embedded links to your Tableau dashboards.
