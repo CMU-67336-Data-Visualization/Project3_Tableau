@@ -51,23 +51,23 @@ Clearly articulate the story your visualizations aim to tell.
 
 ---
 
-## Step 2: Build Two Interactive Dashboards in Tableau
+## Step 2: Build One Interactive Dashboard in Tableau
 
-Using Tableau, develop two separate dashboards, each providing a distinct perspective on your data story. Please make sure it is specific, relevant, and researchable. The dashboards must be interactive, allowing users to explore the data through filters, tooltips, or other user actions.  
+Using Tableau, develop one dashboard with two visualizations, each providing a distinct perspective on your data story. Please make sure the visualziations are specific and relevant. The dashboard must be interactive, allowing users to explore the data through filters, tooltips, or other user actions.  
 
-Example dashboard formats include:
+Example visualziation formats include:
 
-**Dashboard 1: Time-Series Analysis**  
+**Visual 1: Time-Series Analysis**  
 - Show trends over time (e.g., incidents by month or week)  
 - Include filtering by crime type or location  
 - Use tooltips to show incident details  
 
-**Dashboard 2: Geographic or Categorical Analysis**  
+**Visual 2: Geographic or Categorical Analysis**  
 - Map view of incident or arrest locations by neighborhood or zone  
 - Filters for incident category or time range  
 - Use color, shape, or size to indicate patterns  
 
-Publish both dashboards to Tableau Public and ensure they are publicly accessible. You will state your analytical question clearly in your Observable introduction.
+Publish the dashboard to Tableau Public and ensure they are publicly accessible. You will state your analytical question clearly in your Observable introduction.
 
 ---
 
