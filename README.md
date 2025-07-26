@@ -53,19 +53,23 @@ Clearly articulate the story your visualizations aim to tell.
 
 ## Step 2: Build One Interactive Dashboard in Tableau
 
-Using Tableau, develop one dashboard with two visualizations, each providing a distinct perspective on your data story. Please make sure the visualziations are specific and relevant. The dashboard must be interactive, allowing users to explore the data through filters, tooltips, or other user actions.  
+Using Tableau, develop one dashboard with three visualizations, each providing a distinct perspective on your data story. Please make sure the visualziations are specific and relevant. The dashboard must be interactive, allowing users to explore the data through filters, tooltips, and or other user actions.  
 
-Example visualziation formats include:
+Example visualization formats include (but not limited to):
 
 **Visual 1: Time-Series Analysis**  
 - Show trends over time (e.g., incidents by month or week)  
 - Include filtering by crime type or location  
 - Use tooltips to show incident details  
 
-**Visual 2: Geographic or Categorical Analysis**  
-- Map view of incident or arrest locations by neighborhood or zone  
+**Visual 2: Geographic Analysis**  
+- Map view of incident or arrest locations by neighborhood or zone 
 - Filters for incident category or time range  
-- Use color, shape, or size to indicate patterns  
+- Use color, shape, or size to indicate patterns
+
+**Visual 3: Categorical Analysis**  
+- Types of incident being committed
+- Filters for gender, age, or zone
 
 Publish the dashboard to Tableau Public and ensure they are publicly accessible. You will state your analytical question clearly in your Observable introduction.
 
@@ -81,7 +85,7 @@ Your Observable notebook should include:
 - A project title and introduction (describe your question and why it matters)
 - Embedded Tableau dashboards
 - Summary and analysis of findings
-- Your written reflection (see Step 4) 
+- Your written reflection (see Step 4 for details) 
 - References to datasets or outside sources
 
 ### 3.2 Embed Tableau Dashboards
